@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+EmI1agrwuFy8Z153wbxhrNGclAtRcg3apetbKjLCK2rCXNDbWwOENqka/KC5bXTM31qLJ4441eiqS5IVgO41g==",
+  "success": true,
+  "projectFilePath": "D:\\MISA Fresher Web\\Prj Vue\\api\\MISA.AMIS\\MISA.AMIS.Common\\MISA.AMIS.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\THAI DUONG\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\THAI DUONG\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

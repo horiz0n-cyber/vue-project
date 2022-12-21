@@ -1,0 +1,60 @@
+.dialog-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1f1e1e9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 16;
+
+    .dialog{
+        background: #fff;
+        padding: 24px;
+        width: 444px;
+        border-radius: 4px;
+        box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+        
+        .dialog-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dialog-body{
+            margin: 24px 0;
+            font-size: 14px;
+            display: flex;
+            
+            .dialog-mess-wrapper{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .dialog-message{
+                    padding-left: 12px;
+                }
+            }  
+        }
+
+        
+        .dialog-footer{
+            display: flex;
+            justify-content: space-between;
+
+            &.align-item-center{
+                align-items: center;
+            }
+            
+            &.justify-content-center{
+                justify-content: center;
+            }
+
+            &.justify-content-end{
+                justify-content: end;
+            }
+        }
+    }
+}

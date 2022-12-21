@@ -1,0 +1,37 @@
+.toast-mess-wrapper{
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index:200;
+
+    .toast-mess{
+        min-width: 450px;
+        max-width: 650px;
+        padding: 16px 16px;
+        border-radius: 4px;
+        display: flex;
+        background-color: #fff;
+        box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+        align-items: center;
+        justify-content: space-between;
+
+        .toast-mess-left{
+            display: flex;
+            align-items: center;
+
+            .toast-mess-body{
+                margin-left: 8px;
+
+                .toast-mess-title{
+                    color: #50B83C;
+                }
+            }
+        }
+        
+        .toast-mess-right{
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+}

@@ -1,0 +1,93 @@
+.form-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1f1e1e9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 16;
+
+    .form{
+        width: 900px;
+        position: relative;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+
+        .form-main{
+            .form-header{
+                padding: 32px;
+                display: flex;
+                align-items: center;
+    
+                .form-title{
+                    font-size: 24px;
+                    font-weight: 700;
+                    /* text-align: left; */
+                    /* padding: 24px; */
+                    font-family: 'Roboto-Bold';
+                }
+    
+                .form-checkbox{
+                    margin: 0px 20px;
+                }
+            }
+    
+            .form-body{
+                box-sizing: border-box;
+                max-height: calc(100vh - 90px - 102px);
+                font-size: 14px;
+                padding: 0px 32px;
+                overflow: overlay;
+            }
+        }
+        
+        .form-footer{
+            display: flex;
+            padding: 32px;
+            justify-content: space-between;
+            align-items: center;
+
+            .form-footer-right{
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .form-close{
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            cursor: pointer;
+            display: flex;
+        }
+    }
+}
+
+.w-1\/2{
+    width: 50% !important;
+    box-sizing: border-box;
+}
+
+.w-2\/5{
+    width: 40% !important;
+}
+
+.w-3\/5{
+    width: 60% !important;
+}
+
+.w-1\/4{
+    width: 25% !important;
+}
+
+.cl-red{
+    color: #E60000;
+}
+
+.form-radio{
+    margin-right: 20px;
+}

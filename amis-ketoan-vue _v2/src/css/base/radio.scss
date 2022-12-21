@@ -1,0 +1,63 @@
+/* The container */
+.radio-container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked ~ .radio-checkmark {
+        border-color: #2ca01c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .radio-dot{
+          display: block;
+        }
+      }
+    }
+
+    .radio-checkmark {
+      /* position: absolute; */
+      top: 0;
+      left: 0;
+      height: 18px;
+      width: 18px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 1px solid #BDBDBD;
+      background-color: #fff;
+
+      .radio-dot{
+        display: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #2ca01c;
+        top: 4px;
+        left: 4px;
+      }
+    }
+
+    .radio-label{
+      font-size: 13px;
+      margin-left: 10px;
+  }
+  }
+
+  
+  /* Show the checkmark when checked */
+  .radio-container input:checked ~ .radio-checkmark .icon-radio-check {
+    display: block;
+  }
+

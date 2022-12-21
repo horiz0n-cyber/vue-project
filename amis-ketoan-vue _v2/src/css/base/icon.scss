@@ -1,0 +1,164 @@
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-icon{
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat;
+    cursor: pointer;
+
+    &.icon-platform{
+        background-position: -424px -86px;
+        margin-right: 16px;
+    }
+
+    &.icon-dropdown{
+        background-position: -560px -359px;
+    }
+    
+    &.icon-avtive{
+        background-position: -1224px -360px;
+    }
+    
+    &.icon-question{
+        background-position: -826px -456px;
+    }
+    
+    &.icon-error{
+        background-position: -24px -954px;
+    }
+    
+    &.icon-loading{
+        background-image: url("../../assets/loading.svg");
+    }
+    
+    &.icon-warning{
+        background-position: -592px -456px;
+    }
+    
+    &.icon-dashboard{
+        background-position: -30px -1628px;
+    }
+    
+    &.icon-moneybag{
+        background-position: -73px -1585px ;
+    }
+    
+    &.icon-bank{
+        background-position: -117px -1628px;
+    }
+    
+    &.icon-pu{
+        background-position: -161px -1628px;
+    }
+    
+    &.icon-sale{
+        background-position: -204px -1628px;
+    }
+    
+    &.icon-invoice{
+        background-position:  -249px -1628px;
+    }
+    
+    &.icon-stock{
+        background-position: -291px -1628px;
+    }
+    
+    &.icon-tools{
+        background-position: -336px -1628px;
+    }
+    
+    &.icon-fixed-assets{
+        background-position: -378px -1630px;
+    }
+    
+    &.icon-salary{
+        background-position: -467px -1659px;
+    }
+    
+    &.icon-price{
+        background-position: -467px -1628px;
+    }
+    
+    &.icon-general{
+        background-position: -510px -1628px;
+    }
+    
+    &.icon-budget{
+        background-position: -378px -1659px;
+    }
+    
+    &.icon-report{
+        background-position: -547px -1628px;
+    }
+    
+    &.icon-finance{  
+        background-position: -204px -1664px;
+    }
+    
+    &.icon-toggle{
+        background-position: -843px -30px;
+        margin-right: 10px;
+    }
+    
+    &.icon-notify{
+        background-position: -788px -30px;
+    }
+    
+    &.icon-down{
+        background-position: -80px -360px;
+        transform: rotate(90deg);
+    }
+
+    &.icon-close{
+        background-position: -144px -144px;
+    }
+    
+    &.icon-help{
+        background-position: -89px -144px;
+    }
+
+    &.icon-chevron-down{
+        background-position: -1076px -32px;
+    }
+    
+    &.icon-chevron-left{
+        background-position: -33px -361px;
+    }
+    
+    &.icon-chevron-right{
+        background-position: -81px -361px;
+    }
+
+    &.icon-dropdown-blue{
+        background-position: -896px -359px;
+    }
+    
+    &.icon-search{
+        background-position: -992px -360px;
+    }
+
+    &.icon-refresh{
+        background-position: -423px -201px;
+    }
+
+    &.icon-success{
+        background-position: -1602px -258px;
+    }
+
+    &.icon-x{
+        background-position: -1178px -362px;
+    }
+
+    &.icon-excel{
+        background-position: -704px -200px;
+    }
+}
+
+@for $i from 8 through 48 {
+    .icon#{$i}{
+        width: #{$i}px;
+        height: #{$i}px;
+    }
+}
